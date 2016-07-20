@@ -1,0 +1,52 @@
+$mortar-color: $bittersweet;
+$brick-color: $white;
+
+.bricks {
+  background:
+    linear-gradient(135deg, $brick-color 22px, $mortar-color 22px, $mortar-color 24px, transparent 24px, transparent 67px, $mortar-color 67px, $mortar-color 69px, transparent 69px),
+    linear-gradient(225deg, $brick-color 22px, $mortar-color 22px, $mortar-color 24px, transparent 24px, transparent 67px, $mortar-color 67px, $mortar-color 69px, transparent 69px)0 64px;
+  background-color: $brick-color;
+  background-size: 64px 128px;
+}
+
+$circle-size: 200px;
+$header-height: 400px;
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @extend .bricks;
+
+  height: 400px;
+  width: 100%;
+}
+
+.nav-banner {
+  width: 100%;
+  background: white;
+  border-top: 2px $bittersweet solid;
+}
+
+.circle {
+	width: $circle-size;
+	height: $circle-size;
+	background: $white;
+	border-radius: $circle-size / 2;
+  border: 2px solid $mortar-color;
+}
+
+.site-title-container {
+  @extend .circle;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: $circle-size;
+}
+
+.site-title {
+  vertical-align: middle;
+  line-height: $circle-size;
+  width: 100%;
+  font-weight: 100;
+}
