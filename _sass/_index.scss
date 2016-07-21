@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.next, .previous {
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+a.next,
+a.previous {
+  border: 1px $green solid;
+  color: $green;
+  &:hover {
+    text-decoration: none;
+    background: $aero;
+  }
+}
+
+span.next,
+span.previous {
+  color: $grey-color-light;
+  border: 1px $aero solid;
+  &:hover {
+    cursor: default;
+  }
+}

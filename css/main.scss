@@ -3,7 +3,12 @@
 ---
 @charset "utf-8";
 
-
+//My variables
+$bittersweet: hsla(8%, 100%, 67%, 1);
+$tangerine: hsla(14%, 100%, 77%, 1);
+$white: hsla(0%, 0%, 100%, 1);
+$aero: hsla(147%, 100%, 88%, 1);
+$green: hsla(165%, 100%, 35%, 1);
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -16,7 +21,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      $green;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -43,17 +48,13 @@ $on-laptop:        800px;
     }
 }
 
-//My variables
-$bittersweet: hsla(8%, 100%, 67%, 1);
-$tangerine: hsla(14%, 100%, 77%, 1);
-$white: hsla(0%, 0%, 100%, 1);
-$aero: hsla(147%, 100%, 88%, 1);
-$green: hsla(165%, 100%, 35%, 1);
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting",
-        "header"
+        "index",
+        "header",
+        "footer",
+        "about"
 ;

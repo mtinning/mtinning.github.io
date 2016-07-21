@@ -19,3 +19,5 @@ github_username:  mtinning
 
 # Build settings
 markdown: kramdown
+paginate: 3
+gems: [jekyll-paginate]

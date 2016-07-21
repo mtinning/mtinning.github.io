@@ -1,0 +1,12 @@
+footer {
+  @extend .bricks;
+  border-bottom: 2px solid $bittersweet;
+}
+
+.footer-wrapper {
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+  background: white;
+  border-right: 2px solid $bittersweet;
+  border-left: 2px solid $bittersweet;
+}

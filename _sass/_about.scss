@@ -1,0 +1,17 @@
+$circle-size: 200px;
+$img-padding: 30px;
+
+.image-frame {
+  height: $circle-size;
+  width: $circle-size;
+  border-radius: $circle-size / 2;
+  border: 2px $green solid;
+  margin: 30px auto;
+
+  img {
+    height: $circle-size - 2 * $img-padding;
+    margin: 0 auto;
+    padding-top: 27px;
+    display: block;
+  }
+}
