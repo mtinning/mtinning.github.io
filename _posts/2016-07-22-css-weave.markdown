@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "CSS Weave Pattern"
+date:   2016-07-22
+categories: css styling codepen
+---
+This is my first post! Welcome to my place for everything I learn and want to share. Since I'm currently quite firmly planted in the world of web development, this will mainly be useful, interesting or life-changing techniques or technologies. I'm fond of languages so expect to see lots of posts around program design and how to make the most of the features and patterns that are available to us.
+
+I wanted to start by giving a shout out to [Jeroen Franse](https://twitter.com/jroenf) for the excellent "weave" design that I've used in my site header. I found it on [Lea Verou's collection](http://lea.verou.me/css3patterns/#) of CSS3 `linear-gradient` patterns while looking for interesting patterns to use. Some are quite amazing, I'm hugely impressed by anyone who has the vision to create these patterns from repeated gradient stops!
+
+I've added a bit of colour to my interpretation - I found my colour scheme on [coolors](https://coolors.co/ff7059-ffa68a-ffffff-c1ffdd-00b184) (not a bad site, but dud colour schemes more often than not). I've set up a [codepen](http://codepen.io) to show you how it's done:
+
+<br/>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="PzRVoo" data-default-tab="css,result" data-user="mtinning" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mtinning/pen/PzRVoo/">PzRVoo</a> by Michael Tinning (<a href="http://codepen.io/mtinning">@mtinning</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js">
+</script>
+
+<br/>
+
+Codepen is a great tool created by (amongst others) Chris Coyer, CSS guru-in-residence of [css-tricks](https://css-tricks.com/). [Rachel Andrew](https://twitter.com/rachelandrew) (another CSS guru!) gave a great talk at [Bristech](http://bris.tech) this month about the future of CSS and made excellent use of codepen - you can see her collection [here](http://codepen.io/collection/nmZWMK/). I'm really a CSS amateur, so am amazed no end at the magic these guys can wield.
