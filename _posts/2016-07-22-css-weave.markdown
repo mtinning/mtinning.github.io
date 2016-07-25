@@ -2,7 +2,6 @@
 layout: post
 title:  "CSS Weave Pattern"
 date:   2016-07-22
-categories: css styling codepen
 ---
 This is my first post! Welcome to my place for everything I learn and want to share. Since I'm currently quite firmly planted in the world of web development, this will mainly be useful, interesting or life-changing techniques or technologies. I'm fond of languages so expect to see lots of posts around program design and how to make the most of the features and patterns that are available to us.
 
