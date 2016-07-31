@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Discriminated Unions in Typescript"
+title:  "Discriminated Unions in TypeScript"
 date:   2016-07-25
 ---
 
@@ -16,7 +16,7 @@ I've enjoyed using discriminated union types ever since I got my head around the
 
 > The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
 
-So what's the alternative when you have a domain in need of a model? Scalfani makes a useful distinction: where OO languages tend towards _*Categorical Hierarchies*_ - a square _is_ a quadrilateral _is_ a shape - these types of hierarchies simply do not model the real world very effectively - we don't find many deep hierarchies of categories in the real world. One alternative is _*Containment Hierarchies*_.
+So what's the alternative when you have a domain in need of a model? Scalfani makes a useful distinction: where OO languages tend towards **_Categorical Hierarchies_** - a square _is_ a quadrilateral _is_ a shape - these types of hierarchies simply do not model the real world very effectively - we don't find many deep hierarchies of categories in the real world. One alternative is **_Containment Hierarchies_**.
 
 A Containment Hierarchy is one where types are defined by their contents. I might decide to model my house with a containment hierarchy - my house contains rooms, including a kitchen, living room, bedrooms etc.. My kitchen contains units. One unit contains drawers. One draw contains cutlery. That cutlery consists of knives, forks, and spoons. There is no need for a categorical hierarchy here at all.
 
@@ -55,8 +55,10 @@ Great! The TypeScript compiler is now smart enough to figure out that we will re
 
 I've woken up a bit now, so let's fix that:
 
+<br/>
 <script src="https://gist.github.com/mtinning/3ec7440c72e4ca53db16ee8dad033bf3.js">
 </script>
+<br/>
 
 Brilliant, I can now rest happy in the knowledge that all of my cases are handled!
 
