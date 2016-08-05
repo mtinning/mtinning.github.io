@@ -6,13 +6,20 @@ layout: default
 
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p class="author">
-      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+      <span class="date"><em>{{ post.date | date: '%B %d, %Y' }}</em></span>
     </p>
-    <div class="content">
-      {{ post.content }}
+    <div class="post-description">
+      {{ post.description }}
     </div>
+    <br>
+    <div class="read-more">
+      <a href="{{ post.url }}">Read more...</a>
+    </div>
+    {% if post != paginator.posts.last %}
+    <hr>
+    {% endif %}
   {% endfor %}
 
   <!-- Pagination links -->

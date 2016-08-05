@@ -2,6 +2,8 @@
 layout: post
 title:  "Discriminated Unions in TypeScript"
 date:   2016-07-25
+comments: true
+description: Digging into discriminated unions in TypeScript - what are they? Why are they useful? And how can they help us write safer code?
 ---
 
 I was pretty late to jump on the TypeScript bandwagon, but have recently been taking a closer look at it. This was largely inspired by a golden nugget of knowledge that I found at June's [.NET South West Meetup](http://www.meetup.com/dotnetsouthwest/) - TypeScript now has discriminated union types!

@@ -2,6 +2,8 @@
 layout: post
 title:  "Domain Modelling with Unions and Tuples in TypeScript"
 date:   2016-07-31
+comments: true
+description: Taking a look at some of the tools in our TypeScript type toolbox - unions and tuples, and introducing literal union types, a brand new feature in the TypeScript 2.0 beta branch. How do these tools make it super easy to knock up domain models?
 ---
 
 Excitingly, in the last few days a great new feature has made it into TypeScript - narrowing of literal union types - which adds a powerful tool for domain modelling to the TypeScript toolbox.
