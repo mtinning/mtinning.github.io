@@ -2,7 +2,7 @@
 layout: post
 title:  "Discriminated Unions in TypeScript"
 date:   2016-07-25
-comments: true
+comments: false
 description: Digging into discriminated unions in TypeScript - what are they? Why are they useful? And how can they help us write safer code?
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Better Discriminated Unions in TypeScript with Strict Null Checks"
 date:   2016-08-04
-comments: true
+comments: false
 description: TypeScript 2.0 introduces non-nullable types with strict null checks. This is an awesomely powerful tool for writing safe and correct code - and in addition, it makes our discriminated unions a whole lot better!
 ---
 
